@@ -20,6 +20,11 @@
 		    plugins: [ RevealHighlight ]
 		  });
 		</script>
+		<!-- Math packages import-->
+		<script src="plugin/math/math.js"></script>
+		<script>
+		  Reveal.initialize({ plugins: [ RevealMath.KaTeX ] });
+		</script>
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
@@ -41,9 +46,12 @@
 						    return y
 					  </code></pre>
 					</section>
-					<section data-markdown>
-				  `$$ y = 2 . x + 3 $$`
-					</section>
+				  <section>
+					<h3>The image of the function f for a given x :
+					f(x) = 2.x + 3
+					</h3>
+					\dot{x}
+				  </section>
 				</section>
 			</div>
 		</div>
